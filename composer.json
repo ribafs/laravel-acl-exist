@@ -1,0 +1,33 @@
+{
+    "name": "ribafs/laravel-acl-exist",
+    "description": "ACL Implementation to Applications in Laravel 8 in existing applications",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ribamar FS",
+            "email": "ribafs@gmail.com",
+            "homepage": "https://ribafs.github.io"
+        }
+    ],
+    "homepage": "https://github.com/ribafs/laravel-acl-exist",
+    "keywords": ["Laravel", "Acl"],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Ribafs\\LaravelAclExist\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ribafs\\LaravelAclExist\\LaravelAclExistServiceProvider"
+            ],
+            "aliases": {
+                "LaravelAclExist": "Ribafs\\LaravelAclExist\\Facades\\LaravelAclExist"
+            }
+        }
+    }
+}
