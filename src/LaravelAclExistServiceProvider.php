@@ -1,9 +1,9 @@
 <?php
-namespace Ribafs\LaravelAcl;
+namespace Ribafs\LaravelAclExist;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelAclServiceProvider extends ServiceProvider
+class LaravelAclExistServiceProvider extends ServiceProvider
 {    
     public function boot()
     {
